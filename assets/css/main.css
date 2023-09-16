@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.perant{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    /* background-color: red; */
+    width: 50%;
+}
+.header__folio{
+    width: 20%;
+    padding-top: 94px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.header__menu{
+    width: 20%;
+    position: relative;
+}
+
+.header__dotted{
+    width: 60%;
+    }
+.header--folio{
+    width: 56%;
+}
+.header--TM{
+    position: absolute;
+    top: 93px;
+    left: 79px;
+    width: 6px;
+}
+.header--dotimg{
+    width: 100%;
+}
+.header--shape{
+    width: 20px;
+    position: absolute;
+    top: 92px;
+    left: 41px;
+}
+
+.header--menu{
+    width: 3px;
+    position: absolute;
+    top: 92px;
+    right: 11px;
+}
+.perant2{
+    display: flex;
+    width: 35%;
+    top: 55px;
+    position: absolute;
+    top: 36%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+.section1{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: red; */
+    justify-content: space-between;
+    position: relative;
+}
+.section1__shape{
+    width: 23px;
+    height: 42px;
+    position: absolute;
+    right: 0;
+    top: 140px;
+}
+.section1__title{
+    font-size: 126px;
+    height: 120px;
+    padding: 0;
+    margin: 0;
+}
+.section1__content{
+    font-size: 11px;
+    width: 351px;
+}
+.perant3{
+    display: grid;
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    top: 410px;
+    left: 328px;
+    z-index: 99;
+}
+.section2_box1{
+    background-color: rgb(152 152 255);
+}
+.section2_box2{
+    position: relative;
+    background-color: #f4dff4;
+}
+.section2_box3{
+    position: relative;
+    background-color: #fff2db;
+}
+.section2__shape2{
+    position: absolute;
+    top: 10px;
+    right: 414px;
+    width: 35px;
+}
+.section2__shape{
+    position: absolute;
+    top: 33px;
+    left: 304px;
+    width: 53px;
+}
+.section2__shape3{
+    position: absolute;
+    width: 46px;
+    top: 119px;
+    left: 308px;
+}
+.read_more_box{
+    width: 26%;
+    border: 1px solid #0000005e;
+    margin: 188px 0 0 200px;
+}
+.read_more_content{
+    display: inline-block;
+    width: 100%;
+    margin-left: 37px;
+    opacity: 0.7;
+}
+.read_more_box ::before{
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 199px;
+    right: 95px;
+    opacity: 0.5;
+}
+.section2_box4{
+    position: relative;
+    background-color: #ebc1eb;
+}
+.footer{
+    background-color: aliceblue;
+    height: 700px;
+    position: absolute;
+    width: 100%;
+    top: 818px;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 3fr 1fr 2fr;
+}
+.loading{
+    height: 300px;
+    width: 657px;
+    position: relative;
+    top: 93px;
+    right: 0px;
+}
+.loading__title{
+    letter-spacing: 16px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15px;
+    right: 212px;
+}
+.phone__img{
+    position: absolute;
+    top: 270px;
+    /* left: 223px; */
+    right: 312px;
+}
+.phone__stw{
+    position: absolute;
+    top: 107px;
+    right: 338px;
+}
+.wier_img{
+    position: absolute;
+    top: 190px;
+    /* left: 252px; */
+    right: 319px;
+}
+.footer_section2{
+    margin-top: 115px;
+    width: 657px;
+    height: 115px;
+    position: relative;
+}
+.number{
+    position: absolute;
+    top: 0px;
+    left: 199px;
+    letter-spacing: 7px;
+}
+.footer_section2__content{
+    position: absolute;
+    top: 43px;
+    right: 175px;
+    font-size: 8px;
+    opacity: 0.6;
+}
+
+.contact::after{
+    content: "";
+    width: 1px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    right: 646px;
+    opacity: 0.6;
+}
+.contact_section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    margin-left: 54px;
+    opacity: 0.8;
+   
+}
+.contact-facebook, .contact-twitter,.contact-dribble{
+    letter-spacing: 5px;
+    font-size: 12px;
+}
